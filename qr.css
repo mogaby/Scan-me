@@ -31,7 +31,11 @@ p {
   font-size: 14px;
   margin-top: 30px;
 }
+
 @media (max-width: 400px) {
+  body {
+    margin: 0px;
+  }
   .main {
     width: 90vw;
     height: auto;
